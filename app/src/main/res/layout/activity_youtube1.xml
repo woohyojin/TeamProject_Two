@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".Youtube.Youtube1Activity">
+
+    <com.google.android.youtube.player.YouTubePlayerView
+        android:id="@+id/youTubePlayerView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/youtubebtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:layout_marginTop="250dp"
+        android:background="@drawable/button_round"
+        android:fontFamily="@font/maruburibold"
+        android:text="재생"
+        android:textColor="#000000" />
+
+    <ScrollView
+        android:id="@+id/scrollview"
+        android:layout_width="407dp"
+        android:layout_height="416dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="2dp"
+        android:layout_marginBottom="0dp">
+
+        <TextView
+            android:id="@+id/webaretext"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/maruburibold"
+            android:background="@drawable/textviewline"
+            android:text="\nBrownbear: I can't believe we rushed through our friends' parties. for this, they are the ones really care about us.
+\n\n저길 가겠다고 다른 친구들 파티에서 그렇게 나오다니 진짜 중요한 것은 거기인데
+\n\nPanda: We've been real tingle this christmas. I bet those parties are all over now. If only, you know, we could make it up to them somehow
+\n\n이번 크리스마스는 우리 왕재수였을거야. 이제 다른 파티들은 다 끝났을텐데 어떻게든 제대로 사과를 해야지
+\n\nBrownbear: guys, I have an idea
+\n\n애들아 나에게 좋은 생각이있어\n\n
+Panda: All right, First stop is Taves
+\n\n좋아 첫번째는 타베스다!
+\n\nBrownbear: Time to fix christmas
+\n\n진짜 크리스마스는 지금부터야\n\n
+woman: coming, hey there
+\n\n네 나가요
+\n\noh my gosh, look at you. You want to play?
+\n\n세상에 귀여워라. 우리 같이 놀까?
+\n\noh come on boy. let's go. little ranger
+\n\n이리와봐 나랑 같이 출동하자 작은 경비원\n\n
+Cloi: what is that?
+\n\n무슨냄새지?
+\n\nCloi father: Cloi, were you making something?
+\n\n클로이 너요리했니?
+\n\nCloi: no it's not me
+\n\n전아닌데요
+\n\nwow guys?
+\n\n애들아?\n\n
+Brownbear: good morning. we're sorry we rushed out last night and we wanted to make it up to you
+\n\n안녕하세요.어젯밤에 간게 죄송해서 사과하려구요.
+\n\nCloi mother: this looks amazing
+\n\n정말 맛있겠다
+\n\nPolarbear: Icebear's special peace offering
+\n\n아이스베어의 화해의 선물
+\n\nBrownbear: we know this doesn't right all the wrong we did yesterday. And I'm sure it's very hard getting kimchi out of a carpet. and we just want to let you know that we really care about you
+\n\n이런다고 어젯밤 일이 괜찮아지는건 아니겠지. 카펫에 쏟은 김치국물도 안빠질거고 근데 이것만 알아줘 우리가 널 많이 아낀다는걸\n"/>
+
+    </ScrollView>
+
+</RelativeLayout>

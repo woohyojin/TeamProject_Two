@@ -1,0 +1,372 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".Youtube.Youtube5Activity">
+
+    <com.google.android.youtube.player.YouTubePlayerView
+        android:id="@+id/youTubePlayerView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/youtubebtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:layout_marginTop="250dp"
+        android:background="@drawable/button_round"
+        android:fontFamily="@font/maruburibold"
+        android:text="재생"
+        android:textColor="#000000" />
+
+    <ScrollView
+        android:id="@+id/scrollview"
+        android:layout_width="407dp"
+        android:layout_height="416dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="2dp"
+        android:layout_marginBottom="0dp">
+
+        <TextView
+            android:id="@+id/webaretext"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:gravity="center"
+            android:fontFamily="@font/maruburibold"
+            android:background="@drawable/textviewline"
+            android:text="\nあなたが望むなら
+
+\n\n아나타가 노조무나라
+\n당신이 원한다면
+
+\n\nこの胸を射通して
+
+\n\n코노 무네오 이토오시테
+\n이 가슴을 꿰뚫어서
+
+\n\n頼りの無い僕もいつか
+
+\n\n타요리노 나이 보쿠모 이츠카
+\n미덥지 못한 나도 언젠가
+
+\n\n何者かに成れたなら
+
+\n\n나니모노카니 나레타나라
+\n누군가가 되었다면
+
+\n\n訳もなく
+
+\n\n와케모 나쿠
+\n이유도 없이
+
+\n\n涙が溢れそうな
+
+\n\n나미다가 아후레소오나
+\n눈물이 넘칠 것 같은
+
+\n\n夜を埋め尽くす
+
+\n\n요루오 우메츠쿠스
+\n밤을 꽉 채우는
+
+\n\n輝く夢と成る
+
+\n\n카가야쿠 유메토 나루
+\n빛나는 꿈이 될 거야
+
+\n\n白い息は頼りなく
+
+\n\n시로이 이키와 타요리나쿠
+\n하얀 입김은 기댈 곳 없이
+
+\n\n冬の寒さに溶けて消えた
+
+\n\n후유노 사무사니 토케테 키에타
+\n겨울 추위에 녹아 사라졌어
+
+\n\nあの日の重ねた手と手の
+
+\n\n아노히노 카사네타 테토 테노
+\n그 날 포개진 손과 손의
+
+\n\n余熱じゃあまりに頼りないの
+
+\n\n요네츠쟈 아마리니 타요리나이노
+\n남은 열로는 그다지 의지할 수 없어
+
+\n\n春はいつだって
+
+\n\n하루와 이츠닷테
+\n봄은 언제나
+
+\n\n当たり前の様に
+
+\n\n아타리마에노요오니
+\n당연한 것처럼
+
+\n\n迎えに来ると
+
+\n\n무카에니 쿠루토
+\n데리러 올 거라고
+
+\n\nそう思っていたあの頃
+
+\n\n소오 오못테이타 아노 코로
+\n그렇게 생각했던 그 시절
+
+\n\n瞼閉じれば
+
+\n\n마부타 토지레바
+\n눈을 감으면
+
+\n\n夢はいつだって
+
+\n\n유메와 이츠닷테
+\n꿈은 언제라도
+
+\n\n正夢だと信じてたあの頃
+
+\n\n마사유메다토 신지테타 아노 코로
+\n현실이 될 거라 믿었던 그 시절
+
+\n\nあなたが望むなら
+
+\n\n아나타가 노조무나라
+\n당신이 원한다면
+
+\n\n何処迄も飛べるから
+
+\n\n도코마데모 토베루카라
+\n어디까지고 날 수 있으니까
+
+\n\n意気地の無い僕もいつか
+
+\n\n이키치노 나이 보쿠모 이츠카
+\n무기력한 나도 언젠가
+
+\n\n生きる意味を見つけたなら
+
+\n\n이키루 이미오 미츠케타나라
+\n삶의 의미를 찾았다면
+
+\n\n愛と憎を
+
+\n\n아이토 조오오
+\n사랑과 미움을
+
+\n\n聢と繋ぎ合わせて
+
+\n\n시카토 츠나기아와세테
+\n서로 단단히 이어서
+
+\n\n一生涯醒めない程の
+
+\n\n이치쇼오가이 사메나이호도노
+\n한평생 깨지 않을 정도로
+
+\n\n荒んだ夢と成る
+
+\n\n스산다 유메토 나루
+\n격렬한 꿈이 될 거야
+
+\n\n凍える夜空を
+
+\n\n코고에루 요조라오
+\n얼어붙는 밤하늘을
+
+\n\n二人で抜け出すの
+
+\n\n후타리데 누케다스노
+\n둘이서 빠져나가는 거야
+
+\n\nあたたかいコートを
+
+\n\n아타타카이 코오토오
+\n따뜻한 코트를
+
+\n\nそっと掛けたなら
+
+\n\n솟토 카케타나라
+\n살며시 걸쳤다면
+
+\n\nあなたはいつだって
+
+\n\n아나타와 이츠닷테
+\n당신은 언제라도
+
+\n\n当たり前の様に隣にいると
+
+\n\n아타리마에노요오니 토나리니 이루토
+\n당연한 듯이 옆에 있을거라고
+
+\n\nそう思っていたあの頃
+
+\n\n소오 오못테이타 아노 코로
+\n그렇게 생각했던 그 시절
+
+\n\n失くせやしない
+
+\n\n나쿠세야 시나이
+\n잃을 수 없는
+
+\n\n記憶の雨が古傷へと
+
+\n\n키오쿠노 아메가 후루키즈에토
+\n기억의 비가 오래된 상처로
+
+\n\n沁み渡ろうとも
+
+\n\n시미와타로오토모
+\n깊이 스며든다 해도
+
+\n\nあなたが望むなら
+
+\n\n아나타가 노조무나라
+\n당신이 원한다면
+
+\n\nこの胸を射通して
+
+\n\n코노 무네오 이토오시테
+\n이 가슴을 꿰뚫어서
+
+\n\n頼りの無い僕もいつか
+
+\n\n타요리노 나이 보쿠모 이츠카
+\n미덥지 못한 나도 언젠가
+
+\n\n何者かに成れたなら
+
+\n\n나니모노카니 나레타나라
+\n누군가가 되었다면
+
+\n\n訳もなく
+
+\n\n와케모나쿠
+\n이유도 없이
+
+\n\n涙が溢れそうな
+
+\n\n나미다가 아후레소오나
+\n눈물이 넘칠 것 같은
+
+\n\n夜を埋め尽くす
+
+\n\n요루오 우메츠쿠스
+\n밤을 꽉 채우는
+
+\n\n輝く夢と成る
+
+\n\n카가야쿠 유메토 나루
+\n빛나는 꿈이 될 거야
+
+\n\n記憶の海を潜って
+
+\n\n키오쿠노 우미오 모굿테
+\n기억의 바다에 빠져
+
+\n\n愛の欠片を拾って
+
+\n\n아이노 카케라오 히롯테
+\n사랑의 조각을 주워서
+
+\n\nあなたの中にずっと
+
+\n\n아나타노 나카니 즛토
+\n계속 당신 안에
+
+\n\n眩しい世界をそっと
+
+\n\n마부시이 세카이오 솟토
+\n살며시 눈부신 세상을
+
+\n\nこの愛が例え呪いのように
+
+\n\n코노 아이가 타토에 노로이노요오니
+\n설령 이 사랑이 저주처럼
+
+\n\nじんわりとじんわりと
+
+\n\n진와리토 진와리토
+\n천천히 아주 천천히
+
+\n\nこの身体蝕んだとしても
+
+\n\n코노 카라다 무시반다토 시테모
+\n이 몸을 좀먹는다고 해도
+
+\n\n心の奥底から
+
+\n\n코코로노 오쿠소코카라
+\n마음 속 깊은 곳에서
+
+\n\nあなたが溢れ出して
+
+\n\n아나타가 아후레다시테
+\n당신이 넘쳐흘러서
+
+\n\n求め合って重なり合う
+
+\n\n모토메앗테 카사나리아우
+\n서로 원하며 겹치는
+
+\n\nその先で僕ら夢と成れ
+
+\n\n소노 사키데 보쿠라 유메토 나레
+\n그 끝에서 우리의 꿈이 되어라
+
+\n\nあなたが望むなら
+
+\n\n아나타가 노조무나라
+\n당신이 원한다면
+
+\n\nこの胸を射通して
+
+\n코노 무네오 이토오시테
+이 가슴을 꿰뚫어서
+
+\n\n頼りの無い僕もいつか
+
+\n\n타요리노 나이 보쿠모 이츠카
+\n미덥지 못한 나도
+
+\n\n何者かに成れたなら
+
+\n\n나니모노카니 나레타나라
+\n누군가가 되었다면
+
+\n\n訳もなく
+
+\n\n와케모 나쿠
+\n이유도 없이
+
+\n\n涙が溢れそうな
+
+\n\n나미다가 아후레소오나
+\n눈물이 넘칠 것 같은
+
+\n\n夜を埋め尽くす
+
+\n\n요루오 우메츠쿠스
+\n밤을 꽉 채우는
+
+\n\n輝く夢と成る
+
+\n\n카가야쿠 유메토 나루
+\n빛나는 꿈이 될 거야
+
+\n\n正夢でも、逆夢だとしても
+
+\n\n마사유메데모 사카유메다토 시테모
+\n현실과 맞는 꿈이든, 맞지 않는 꿈이라고 해도\n\n">
+        </TextView>
+
+    </ScrollView>
+
+</RelativeLayout>

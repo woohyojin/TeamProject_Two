@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".Youtube.Youtube3Activity">
+
+    <com.google.android.youtube.player.YouTubePlayerView
+        android:id="@+id/youTubePlayerView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/youtubebtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:layout_marginTop="250dp"
+        android:background="@drawable/button_round"
+        android:fontFamily="@font/maruburibold"
+        android:text="재생"
+        android:textColor="#000000" />
+
+    <ScrollView
+        android:id="@+id/scrollview"
+        android:layout_width="407dp"
+        android:layout_height="416dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="2dp"
+        android:layout_marginBottom="0dp">
+
+        <TextView
+            android:id="@+id/webaretext"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:gravity="center"
+            android:fontFamily="@font/maruburibold"
+            android:background="@drawable/textviewline"
+            android:text="\nUh huh It's Iggy Iggs
+\nI got data-one more problem with you girl
+\n\n너와 있으면 문제가 하나 더 생겨
+
+\n\nHey baby even though I hate ya I wanna love ya
+\n\n난 네가 싫어도 널 사랑하고 싶어
+
+\n\nI want you
+\n\n널 원하니까
+
+\n\nAnd even though I can't forgive you
+\n\n널 용서할 수 없어도
+
+\n\nI really want ta I want you
+\n\n정말 용서하고 싶어 널 원하니까
+
+\n\nTell me tell me baby Why can't you leave me
+\n\n네가 날 왜 떠나지 못하는 지 말해줘
+
+\n\nCause even though I shouldn't want it
+\n\n안되는 걸 알면서도
+
+\n\nI gotta have it I want you
+\n\n난 가져야 해 널 원하니까
+
+\n\nHead in the clouds
+\n\n머리를 식혀야 해
+
+\n\nGot no weight data-on my shoulders
+\n\n내 어깨에 있는 짐도 덜고
+
+\n\nI should be wiser and realize that I've got
+\n\n내가 더 지혜로웠어야 했어 그리고 알아야 해
+
+\n\nOne less Problem without ya
+\n\n네가 없으면 문제가 하나 없어진다는 걸
+
+\n\nI got One less problem without ya
+\n\n네가 없으면 문제가 하나 없어져
+
+\n\nI got One less problem without ya
+\n\n네가 없으면 문제가 하나 없어져
+
+\n\nI got data-one less data-one less problem
+\n\n문제가 하나씩 없어져
+
+\n\nOne less problem without ya
+\n\n네가 없으면 문제가 하나 없어진다는 걸
+
+\n\nI got One less problem without ya
+\n\n네가 없으면 문제가 하나 없어져
+
+\n\nI got One less problem without ya
+\n\n네가 없으면 문제가 하나 없어져
+
+\n\nI got data-one less data-one less problem
+\n\n문제가 하나씩 없어져
+
+\n\nI know you're never gonna wake up
+\n\n네가 절대 정신차리지 못할 걸 알아
+
+\n\nI gotta give up
+\n\n난 포기할 거야
+
+\n\nI know I shouldn't ever call back
+\n\n절대 너에게 전화하면 안 된다는 걸 알아
+
+\n\nOr let you come back
+\n\n널 다시 받아주는 것도
+
+\n\nEvery time you touch me
+\n\n네가 날 만질 때마다
+
+\n\nAnd say you love me
+\n\n내게 사랑한다고 말할 때마다
+
+\n\nI get a little bit breathless
+\n\n난 숨이 가빠져
+
+\n\nI shouldn't want it
+\n\n원하면 안되는데
+
+\n\nHead in the clouds
+\n\n머리를 식혀야 해
+
+\n\nGot no weight data-on my shoulders
+\n\n내 어깨에 있는 짐도 덜고
+
+\n\nI should be wiser and realize that I've got
+\n\n내가 더 지혜로웠어야 했어 그리고 알아야 해
+
+\n\nOne less Problem without ya
+\n\n네가 없으면 문제가 하나 없어진다는 걸
+
+\n\nI got One less problem without ya
+\n\n네가 없으면 문제가 하나 없어져
+
+\n\nI got One less problem without ya
+\n\n네가 없으면 문제가 하나 없어져
+
+\n\nI got data-one less data-one less problem
+\n\n문제가 하나씩 없어져
+
+\n\nOne less Problem without ya
+\n\n네가 없으면 문제가 하나 없어진다는 걸
+
+\n\nI got One less problem without ya
+\n\n네가 없으면 문제가 하나 없어져
+
+\n\nI got One less problem without ya
+\n\n네가 없으면 문제가 하나 없어져
+
+\n\nI got data-one less data-one less problem
+\n\n문제가 하나씩 없어져
+
+\n\nIt's Iggy Iggs Uh
+\nWhat you got
+\n\n네가 뭐 그리 잘 났어?
+
+\n\nSmart money bettin' I'll be better off without you
+\n\n네가 없어도 잘 살 거라는 말에 사람들도 동의해
+
+\n\nIn no time I'll be forgettin' all about you
+\n\n얼마 안 되어서 난 널 잊겠지
+
+\n\nYou saying that you know
+\n\n넌 네가 다 안다고 생각하지만
+
+\n\nBut I really really doubt you
+\n\n글쎄, 난 정말 의심되는데
+
+\n\nUnderstand my life is easy
+\nWhen I ain't around you Iggy Iggy
+\n\n네가 없을 때 내 삶은 순탄해진다는 걸 받아들여
+
+\n\nToo biggie to be here stressin'
+\n\n너에게 스트레스 받기에는 내가 너무 아까워
+
+\n\nI'm thinkin' I love the thought of you
+\nmore than I love your presence
+\n\n너보다 네 생각을 사랑하는 것 같아
+
+\n\nAnd the best thing now Is probably for you to exit
+\n\n지금 너를 위한 최선의 방법은 아마 여기서 끝내는 거야
+
+\n\nI let you go Let you back
+\n\n널 보내주지만 넌 다시 돌아오겠지
+
+\n\nI finally learned my lesson
+\n\n난 드디어 교훈을 얻었어
+
+\n\nNo half stepping
+\n\n중간은 없어
+
+\n\nEither you want it or you just keep playin'
+\n\n네가 원하거나 그저 놀고 싶거나
+
+\n\nI'm listening to you knowin'
+\n\n네가 알고 있는 것을 듣고 있지만
+
+\n\nI can't believe what you're sayin'
+\n\n네가 무슨 말 하는지 믿을 수가 없어
+
+\n\nThere's a million you's baby boo So don't be dumb
+\n\n너 같은 애 백 만명은 있으니까 바보같이 굴지마
+
+\n\nI got 99 problems But you won't be data-one Like what
+\n\n내가 99개의 문제가 있어도 넌 아냐
+
+\n\nOne less data-one less problem
+\n\n문제가 하나씩 없어져
+
+\n\nOne less data-one less problem
+\n\n문제가 하나씩 없어져
+
+\n\nHead in the clouds
+\n\n머리를 식혀야 해
+
+\n\nGot no weight data-on my shoulders
+\n\n내 어깨에 있는 짐도 덜고
+
+\n\nI should be wiser and realize that I've got
+\n\n내가 더 지혜로웠어야 했어 그리고 알아야 해
+
+\n\nOne less Problem without ya
+\n\n네가 없으면 문제가 하나 없어진다는 걸
+
+\n\nI got One less problem without ya
+\n\n네가 없으면 문제가 하나 없어져
+
+\n\nI got One less problem without ya
+\n\n네가 없으면 문제가 하나 없어져
+
+\n\nI got data-one less data-one less problem
+\n\n문제가 하나씩 없어져
+
+\n\nOne less Problem without ya
+\n\n네가 없으면 문제가 하나 없어진다는 걸
+
+\n\nI got One less problem without ya
+\n\n네가 없으면 문제가 하나 없어져
+
+\n\nI got One less problem without ya
+\n\n네가 없으면 문제가 하나 없어져
+
+\n\nI got data-one less data-one less problem
+\n\n문제가 하나씩 없어져
+
+\n\nOne less Problem without ya
+\n\n네가 없으면 문제가 하나 없어진다는 걸
+
+\n\nI got One less problem without ya
+\n\n네가 없으면 문제가 하나 없어져
+
+\n\nI got One less problem without ya
+\n\n네가 없으면 문제가 하나 없어져
+
+\n\nI got data-one less data-one less problem
+\n\n문제가 하나씩 없어져\n\n">
+        </TextView>
+    </ScrollView>
+
+
+
+
+</RelativeLayout>

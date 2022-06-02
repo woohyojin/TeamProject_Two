@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".Youtube.Youtube4Activity">
+
+    <com.google.android.youtube.player.YouTubePlayerView
+        android:id="@+id/youTubePlayerView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/youtubebtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:layout_marginTop="250dp"
+        android:background="@drawable/button_round"
+        android:fontFamily="@font/maruburibold"
+        android:text="재생"
+        android:textColor="#000000" />
+
+    <ScrollView
+        android:id="@+id/scrollview"
+        android:layout_width="407dp"
+        android:layout_height="416dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="2dp"
+        android:layout_marginBottom="0dp">
+
+        <TextView
+            android:id="@+id/webaretext"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:gravity="center"
+            android:fontFamily="@font/maruburibold"
+            android:background="@drawable/textviewline"
+            android:text="\nさよなら ありがとう 声の限り
+
+\n\n사요나라 아리가토 - 코에노 카기리
+\n잘가 고마워 크게 외쳐
+
+\n\n悲しみよりもっと大事なこと
+
+\n\n카나시미요리 못토 다이지나 코토
+\n슬픔보다 더 소중한 걸
+
+\n\n去りゆく背中に伝えたくて
+
+\n\n사리유쿠 세나카니 츠타에타쿠테
+\n멀어져 가는 등에 전하고 싶어서
+
+\n\n温もりと痛みに間に合うように
+
+\n\n누쿠모리토 이타미니 마니아요우요- 니
+\n따뜻함과 아픔에 늦지 않도록
+
+\n\nこのまま続くと思っていた
+
+\n\n코노마마 츠즈쿠토 오못테이타
+\n이대로 계속된다고 생각했어
+
+\n\n僕らの明日お描いていた
+
+\n\n보쿠라노 아시타오 에가이테이타
+\n우리들의 내일을 그리고 있었어
+
+\n\n呼び合っていた
+
+\n\n요비앗테 이타
+\n서로 부르고 있었어
+
+\n\n呼び合っていた
+
+\n\n(요비앗테 이타)
+\n(서로 부르고 있었어)
+
+\n\n光がまだ
+
+\n\n히카리가 마다
+\n빛이 아직
+
+\n\n光が
+
+\n\n(히카리가)
+\n(빛이)
+
+\n\n胸の奥に熱いのに
+
+\n\n무네노 오쿠니 아츠이노니
+\n마음 속에서 뜨거운데
+
+\n\n僕たちは燃え盛る
+
+\n\n보쿠타치와 모에자카루
+\n우리들은 불타올라
+
+\n\n旅の途中で出逢い
+
+\n\n타비노 토츄-데 데아이
+\n여행길에서 만나
+
+\n\n手おとりそして離した
+
+\n\n테오 토리 소시테 하나시타
+\n손을 잡고선 놓았던
+
+\n\n未来のために
+
+\n\n미라이노 타메니
+\n미래를 위해
+
+\n\n夢が一つ叶う度
+
+\n\n유메가 히토츠 카나우 타비
+\n꿈이 하나 이뤄질 때마다
+
+\n\n僕は君は舞うだるう
+
+\n\n보쿠와 키미와 마우다로-
+\n나는 넌 같이 춤추겠지
+
+\n\n強くなりたいと願い泣いた
+
+\n\n츠요쿠 나리타이토 네가이 나이타
+\n강해지고 싶다고 바라며 울었어
+
+\n\n決意を餞に
+
+\n\n케츠이 오하나무케니
+\n결의를 가지고 떠나
+
+\n\n懐かしい想いに囚われたり　
+
+\n\n나츠카시이 오모이니 토라와레타리
+\n그리운 추억에 사로잡힌다던가
+
+\n\n残酷な世界に泣き叫んで
+
+\n\n잔코쿠나 세카이니 나키사켄데
+\n잔혹한 세계를 향해 울부짖고
+
+\n\n大人になるほど増えて行く
+
+\n\n오토나니 나루호도 우에테유쿠
+\n어른이 되어갈수록 더 바래
+
+\n\nもう何一つだって失いないたくない
+
+\n\n모-나니 히토츠닷테 우시나이타쿠나이
+\n이젠 그 무엇도 잃고 싶지 않다고
+
+\n\n悲しみに飲まれ堕ちてしまれば
+
+\n\n카나시미니 노마레 오치테 시마에바
+\n슬픔에 먹혀 타락한다면
+
+\n\n痛みを感じなくなるけれど
+
+\n\n이타미모 칸지나쿠 나루케레도
+\n아픔도 느끼지 못하겠지만
+
+\n\n君の言葉
+
+\n\n키미노 코토바
+\n네 말
+
+\n\n君の言葉
+
+\n\n(키미노 코토바)
+\n(네 말)
+
+\n\n君の願い
+
+\n\n키미노 네가이
+\n네 소원
+
+\n\n君の声
+
+\n\n(키미노 코에)
+\n(네 목소리)
+
+\n\n僕は守り抜くと誓ったんだ
+
+\n\n보쿠와 마모리누쿠토 치캇탄다
+\n나는 지키겠다고 맹세했어
+
+\n\n音を立てて崩れ落ちてゆく
+
+\n\n오토오 타테테 쿠즈레 오치테유쿠
+\n소리를 내며 무너져내려가는
+
+\n\n一つたけの (一つたけの) かげがえのない世界
+
+\n\n히토츠다케노(히토츠다케노) 카케가에노 나이 세카이
+\n하나뿐인(하나뿐인) 무엇보다도 소중한 세계
+
+\n\n手お伸ばし抱き止めた激しい光の束
+
+\n\n테오 노바시 다키토메타 하게시이 히카리노 타바
+\n손을 뻗어 껴안은 격렬한 빛들
+
+\n\n輝いて消えてった未来のために
+
+\n\n카가야이테 키에텟타 미라이노 타메니
+\n빛나곤 사라진 미래를 위해
+
+\n\n詫された幸せと約束お超えていく
+
+\n\n타쿠사레타 시아와세토 야쿠소쿠오 코에테 유쿠
+\n맡겨진 행복과 약속을 넘어서 갈게
+
+\n\n振り返らずに進むから
+
+\n\n후리카에라즈니 스스무카라
+\n뒤돌지 않고 나아갈 테니까
+
+\n\n前だけ向いて叫ぶから
+
+\n\n마에다케 무이테 사케부카라
+\n앞만 보고 외칠 테니까
+
+\n\n心に炎を灯して
+
+\n\n코코로니 호무라오 토모시테
+\n마음에 불꽃을 밝혀줘
+
+\n\n遠い未来まで
+
+\n\n토오이 미라이마데
+\n머나먼 미래까지\n\n">
+        </TextView>
+
+    </ScrollView>
+
+</RelativeLayout>

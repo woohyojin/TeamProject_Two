@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/language_star"
+        android:title="중요단어"
+        android:visible="true"
+        app:showAsAction="always"/>
+    <item android:id="@+id/language_ben"
+        android:title="외운단어"
+        android:visible="true"
+        app:showAsAction="always"/>
+    <item android:id="@+id/language_dir"
+        android:title="단어장"
+        android:visible="false"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/change_icon"
+        android:title="change"
+        android:icon="@drawable/change"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/reset_icon"
+        android:title="reset"
+        android:icon="@drawable/reset_icon"
+        app:showAsAction="always"/>
+
+</menu>

@@ -1,0 +1,1150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#C4E3F8"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/btnReturn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_round2"
+        android:layout_marginTop="5dp"
+        android:textColor="#000000"
+        android:textSize="19dp"
+        android:fontFamily="@font/maruburibold"
+        android:text="돌아가기" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/prevBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/button_round2"
+            android:textColor="#000000"
+            android:textSize="19dp"
+            android:fontFamily="@font/maruburibold"
+            android:text="이전" />
+
+        <TextView
+            android:id="@+id/tvNumber"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginTop="5dp"
+            android:gravity="center"
+            android:text="0/0"
+            android:textColor="#000000"
+            android:textSize="26dp" />
+
+        <Button
+            android:id="@+id/nextBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/button_round2"
+            android:textColor="#000000"
+            android:textSize="19dp"
+            android:fontFamily="@font/maruburibold"
+            android:text="다음" />
+    </LinearLayout>
+
+    <ViewFlipper
+        android:id="@+id/vewF1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <!--page1 start-->
+        <LinearLayout
+            android:id="@+id/page1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="20dp"
+            android:background="@drawable/textviewline"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:background="#ffff00"
+                android:text="3. 부정대명사 : Some/Any"
+                android:textColor="#000000"
+                android:textSize="30dp"
+                android:fontFamily="@font/maruburibold"
+                android:textStyle="bold" />
+
+            <TableLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:background="#999999"
+                android:paddingRight="1dp"
+                android:stretchColumns="*">
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp" />
+
+                <TableRow
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="#999999">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="1dp"
+                        android:layout_marginBottom="1dp"
+                        android:background="#F7DBE4"
+                        android:padding="3dp"
+                        android:text="문법 포인트"
+                        android:textColor="#000000"
+                        android:fontFamily="@font/maruburibold"
+                        android:textStyle="bold" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="1dp"
+                    android:background="#ffffff">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="150dp"
+                        android:layout_marginBottom="1dp"
+                        android:background="#ffffff"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:textAppearance="?android:attr/textAppearanceLarge">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="권유나 요청"
+                                android:textColor="#ff0000"
+                                android:gravity="center"
+                                android:fontFamily="@font/maruburisemibold"
+                                android:textSize="20dp" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="을 나타내는 의문문일"
+                                android:textColor="#000000"
+                                android:gravity="center"
+                                android:fontFamily="@font/maruburisemibold"
+                                android:textSize="20dp" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="경우에는 Some을 사용한다."
+                                android:textColor="#000000"
+                                android:gravity="center"
+                                android:fontFamily="@font/maruburisemibold"
+                                android:textSize="20dp" />
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                </TableRow>
+            </TableLayout>
+
+            <TableLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:background="#999999"
+                android:paddingRight="1dp"
+                android:stretchColumns="*">
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp" />
+
+                <TableRow
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="#999999">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="1dp"
+                        android:layout_marginBottom="1dp"
+                        android:background="#FEFCB9"
+                        android:padding="3dp"
+                        android:text="예시문장"
+                        android:textColor="#000000"
+                        android:fontFamily="@font/maruburibold"
+                        android:textStyle="bold" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="1dp">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="150dp"
+                        android:layout_marginBottom="1dp"
+                        android:background="#ffffff"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:textAppearance="?android:attr/textAppearanceLarge">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Would you like to have"
+                                android:textColor="#000000"
+                                android:gravity="center"
+                                android:fontFamily="@font/maruburisemibold"
+                                android:textSize="20dp" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text=" some"
+                                android:textColor="#ff0000"
+                                android:gravity="center"
+                                android:fontFamily="@font/maruburisemibold"
+                                android:textSize="20dp" />
+
+                        </LinearLayout>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/maruburisemibold"
+                            android:gravity="center"
+                            android:text=" coffee?"
+                            android:textColor="#000000"
+                            android:textSize="20dp" />
+                    </LinearLayout>
+                </TableRow>
+            </TableLayout>
+        </LinearLayout><!--page1 end-->
+
+        <!--page2 start-->
+        <LinearLayout
+            android:id="@+id/page2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="20dp"
+            android:background="@drawable/textviewline"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:background="#ffff00"
+                android:text="3. 부정대명사 : Some/Any"
+                android:textColor="#000000"
+                android:textSize="30dp"
+                android:fontFamily="@font/maruburibold"
+                android:textStyle="bold" />
+
+            <TableLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:background="#999999"
+                android:paddingRight="1dp"
+                android:stretchColumns="*">
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp" />
+
+                <TableRow
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="#999999">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="1dp"
+                        android:layout_marginBottom="1dp"
+                        android:background="#F7DBE4"
+                        android:fontFamily="@font/maruburibold"
+                        android:padding="3dp"
+                        android:text="문법 포인트"
+                        android:textColor="#000000"
+                        android:textStyle="bold" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="1dp"
+                    android:background="#ffffff">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="150dp"
+                        android:layout_marginBottom="1dp"
+                        android:background="#ffffff"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:textAppearance="?android:attr/textAppearanceLarge">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Any"
+                                android:textColor="#ff0000"
+                                android:fontFamily="@font/maruburisemibold"
+                                android:textSize="20dp" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="가 긍정문에 쓰이는 경우에는"
+                                android:fontFamily="@font/maruburisemibold"
+                                android:textColor="#000000"
+                                android:textSize="20dp" />
+
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:gravity="center"
+                                android:text="'어떤~라도'라는 의미를 갖는다."
+                                android:fontFamily="@font/maruburisemibold"
+                                android:textColor="#000000"
+                                android:textSize="20dp" />
+
+                        </LinearLayout>
+                    </LinearLayout>
+                </TableRow>
+            </TableLayout>
+
+            <TableLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:background="#999999"
+                android:paddingRight="1dp"
+                android:stretchColumns="*">
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp" />
+
+                <TableRow
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="#999999">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="1dp"
+                        android:layout_marginBottom="1dp"
+                        android:background="#FEFCB9"
+                        android:padding="3dp"
+                        android:text="예시문장"
+                        android:textColor="#000000"
+                        android:fontFamily="@font/maruburibold"
+                        android:textStyle="bold" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="1dp">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="150dp"
+                        android:layout_marginBottom="1dp"
+                        android:background="#ffffff"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:textAppearance="?android:attr/textAppearanceLarge">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Any"
+                                android:textColor="#ff0000"
+                                android:fontFamily="@font/maruburisemibold"
+                                android:textSize="20dp" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:gravity="center"
+                                android:text=" question will be answered\nat the end of"
+                                android:fontFamily="@font/maruburisemibold"
+                                android:textColor="#000000"
+                                android:textSize="20dp" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="the professor's presentation."
+                                android:fontFamily="@font/maruburisemibold"
+                                android:textColor="#000000"
+                                android:textSize="20dp" />
+
+                        </LinearLayout>
+                    </LinearLayout>
+                </TableRow>
+            </TableLayout>
+        </LinearLayout><!--page2 end-->
+
+        <!--page3 start-->
+        <LinearLayout
+            android:id="@+id/page3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="20dp"
+            android:background="@drawable/textviewline"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:background="#ffff00"
+                android:text="3. 부정대명사 : Some/Any"
+                android:textColor="#000000"
+                android:textSize="30dp"
+                android:fontFamily="@font/maruburibold"
+                android:textStyle="bold" />
+
+            <TableLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:background="#999999"
+                android:paddingRight="1dp"
+                android:stretchColumns="*">
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp" />
+
+                <TableRow
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="#999999">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="1dp"
+                        android:layout_marginBottom="1dp"
+                        android:background="#F7DBE4"
+                        android:fontFamily="@font/maruburibold"
+                        android:padding="3dp"
+                        android:text="문법 포인트"
+                        android:textColor="#000000"
+                        android:textStyle="bold" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="1dp"
+                    android:background="#ffffff">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="150dp"
+                        android:layout_marginBottom="1dp"
+                        android:background="#ffffff"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:textAppearance="?android:attr/textAppearanceLarge">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Something, somebody, someone"
+                                android:fontFamily="@font/maruburisemibold"
+                                android:textColor="#ff0000"
+                                android:textSize="20dp" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="도"
+                                android:textColor="#000000"
+                                android:fontFamily="@font/maruburisemibold"
+                                android:textSize="20dp" />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="긍정문에 쓰고 "
+                                android:textColor="#000000"
+                                android:fontFamily="@font/maruburisemibold"
+                                android:textSize="20dp" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Anything, anybody,"
+                                android:fontFamily="@font/maruburisemibold"
+                                android:textColor="#0000ff"
+                                android:textSize="20dp" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="anyone"
+                                android:fontFamily="@font/maruburisemibold"
+                                android:textColor="#0000ff"
+                                android:textSize="20dp" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="역시 부정문, 의문문, "
+                                android:fontFamily="@font/maruburisemibold"
+                                android:textColor="#000000"
+                                android:textSize="20dp" />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text=" 조건문에 사용된다."
+                                android:fontFamily="@font/maruburisemibold"
+                                android:textColor="#000000"
+                                android:textSize="20dp" />
+
+                        </LinearLayout>
+                    </LinearLayout>
+                </TableRow>
+            </TableLayout>
+
+            <TableLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:background="#999999"
+                android:paddingRight="1dp"
+                android:stretchColumns="*">
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp" />
+
+                <TableRow
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="#999999">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="1dp"
+                        android:layout_marginBottom="1dp"
+                        android:background="#FEFCB9"
+                        android:padding="3dp"
+                        android:text="예시문장"
+                        android:fontFamily="@font/maruburibold"
+                        android:textColor="#000000"
+                        android:textStyle="bold" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="1dp">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="150dp"
+                        android:layout_marginBottom="1dp"
+                        android:background="#ffffff"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:textAppearance="?android:attr/textAppearanceLarge">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="There's "
+                                android:textColor="#000000"
+                                android:fontFamily="@font/maruburisemibold"
+                                android:textSize="20dp" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="somebody"
+                                android:textColor="#ff0000"
+                                android:fontFamily="@font/maruburisemibold"
+                                android:textSize="20dp" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text=" at the door."
+                                android:textColor="#000000"
+                                android:fontFamily="@font/maruburisemibold"
+                                android:textSize="20dp" />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="I don't want "
+                                android:fontFamily="@font/maruburisemibold"
+                                android:textColor="#000000"
+                                android:textSize="20dp" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="anything "
+                                android:fontFamily="@font/maruburisemibold"
+                                android:textColor="#0000ff"
+                                android:textSize="20dp" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="to eat."
+                                android:fontFamily="@font/maruburisemibold"
+                                android:textColor="#000000"
+                                android:textSize="20dp" />
+
+                        </LinearLayout>
+                    </LinearLayout>
+                </TableRow>
+            </TableLayout>
+        </LinearLayout><!--page3 end-->
+
+        <!--page4 start-->
+        <LinearLayout
+            android:id="@+id/page4"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="20dp"
+            android:background="@drawable/textviewline"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:background="#ffff00"
+                android:text="3. No / None"
+                android:textColor="#000000"
+                android:textSize="36dp"
+                android:fontFamily="@font/maruburibold"
+                android:textStyle="bold" />
+
+            <TableLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:background="#999999"
+                android:paddingRight="1dp"
+                android:stretchColumns="*">
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp" />
+
+                <TableRow
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="#999999">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="1dp"
+                        android:layout_marginBottom="1dp"
+                        android:background="#F7DBE4"
+                        android:fontFamily="@font/maruburibold"
+                        android:padding="3dp"
+                        android:text="문법 포인트"
+                        android:textColor="#000000"
+                        android:textStyle="bold" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="1dp"
+                    android:background="#ffffff">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="150dp"
+                        android:layout_marginBottom="1dp"
+                        android:background="#ffffff"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:textAppearance="?android:attr/textAppearanceLarge">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="No"
+                                android:textColor="#ff0000"
+                                android:fontFamily="@font/maruburisemibold"
+                                android:textSize="18dp" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="는 형용사로 뒤에 반드시 명사가 오지만"
+                                android:fontFamily="@font/maruburisemibold"
+                                android:textColor="#000000"
+                                android:textSize="18dp" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="None"
+                                android:textColor="#0000ff"
+                                android:fontFamily="@font/maruburisemibold"
+                                android:textSize="18dp" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="은 대명사로 혼자 명사 자리에 온다."
+                                android:textColor="#000000"
+                                android:fontFamily="@font/maruburisemibold"
+                                android:textSize="18dp" />
+
+                        </LinearLayout>
+                    </LinearLayout>
+                </TableRow>
+            </TableLayout>
+
+            <TableLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:background="#999999"
+                android:paddingRight="1dp"
+                android:stretchColumns="*">
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp" />
+
+                <TableRow
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="#999999">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="1dp"
+                        android:layout_marginBottom="1dp"
+                        android:background="#FEFCB9"
+                        android:padding="3dp"
+                        android:text="예시문장"
+                        android:textColor="#000000"
+                        android:fontFamily="@font/maruburibold"
+                        android:textStyle="bold" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="1dp">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="150dp"
+                        android:layout_marginBottom="1dp"
+                        android:background="#ffffff"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:textAppearance="?android:attr/textAppearanceLarge">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="As I had "
+                                android:textColor="#000000"
+                                android:fontFamily="@font/maruburisemibold"
+                                android:textSize="20dp" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="no "
+                                android:textColor="#ff0000"
+                                android:fontFamily="@font/maruburisemibold"
+                                android:textSize="20dp" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="money, I paid"
+                                android:textColor="#000000"
+                                android:fontFamily="@font/maruburisemibold"
+                                android:textSize="20dp" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="with my credit card."
+                                android:textColor="#000000"
+                                android:fontFamily="@font/maruburisemibold"
+                                android:textSize="20dp" />
+
+                        </LinearLayout>
+                    </LinearLayout>
+                </TableRow>
+            </TableLayout>
+        </LinearLayout><!--page4 end-->
+
+        <!--page5 start-->
+        <LinearLayout
+            android:id="@+id/page5"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="20dp"
+            android:background="@drawable/textviewline"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:background="#ffff00"
+                android:text="3. Most / Almost"
+                android:textColor="#000000"
+                android:textSize="36dp"
+                android:fontFamily="@font/maruburibold"
+                android:textStyle="bold" />
+
+            <TableLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:background="#999999"
+                android:paddingRight="1dp"
+                android:stretchColumns="*">
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp" />
+
+                <TableRow
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="#999999">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="1dp"
+                        android:layout_marginBottom="1dp"
+                        android:background="#F7DBE4"
+                        android:fontFamily="@font/maruburibold"
+                        android:padding="3dp"
+                        android:text="문법 포인트"
+                        android:textColor="#000000"
+                        android:textStyle="bold" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="1dp"
+                    android:background="#ffffff">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="150dp"
+                        android:layout_marginBottom="1dp"
+                        android:background="#ffffff"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:textAppearance="?android:attr/textAppearanceLarge">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="most"
+                                android:textColor="#ff0000"
+                                android:fontFamily="@font/maruburisemibold"
+                                android:textSize="19dp" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:gravity="center"
+                                android:text="는 '대부분(의)'라는 의미로\n대명사와 형용사로 쓰이고,"
+                                android:fontFamily="@font/maruburisemibold"
+                                android:textColor="#000000"
+                                android:textSize="19dp" />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="almost"
+                                android:textColor="#0000ff"
+                                android:fontFamily="@font/maruburisemibold"
+                                android:textSize="19dp" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="는 '거의'라는"
+                                android:fontFamily="@font/maruburisemibold"
+                                android:textColor="#000000"
+                                android:textSize="19dp" />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="의미로 부사로 사용된다."
+                                android:fontFamily="@font/maruburisemibold"
+                                android:textColor="#000000"
+                                android:textSize="19dp" />
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+                </TableRow>
+            </TableLayout>
+
+            <TableLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:background="#999999"
+                android:paddingRight="1dp"
+                android:stretchColumns="*">
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp" />
+
+                <TableRow
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="#999999">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="1dp"
+                        android:layout_marginBottom="1dp"
+                        android:background="#FEFCB9"
+                        android:padding="3dp"
+                        android:text="예시문장"
+                        android:textColor="#000000"
+                        android:fontFamily="@font/maruburibold"
+                        android:textStyle="bold" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="1dp">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="150dp"
+                        android:layout_marginBottom="1dp"
+                        android:background="#ffffff"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:textAppearance="?android:attr/textAppearanceLarge">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Most "
+                                android:textColor="#ff0000"
+                                android:fontFamily="@font/maruburisemibold"
+                                android:textSize="20dp" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="of the schools are colsed"
+                                android:fontFamily="@font/maruburisemibold"
+                                android:textColor="#000000"
+                                android:textSize="20dp" />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="because of weather conditions."
+                                android:fontFamily="@font/maruburisemibold"
+                                android:textColor="#000000"
+                                android:textSize="20dp" />
+
+                        </LinearLayout>
+                    </LinearLayout>
+                </TableRow>
+            </TableLayout>
+        </LinearLayout><!--page5 end-->
+
+    </ViewFlipper>
+</LinearLayout>

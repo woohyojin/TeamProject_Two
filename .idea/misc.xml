@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Temp/Android-Java/project/togengo2/app/src/main/res/drawable/button_round.xml" value="0.1" />
+        <entry key="..\:/Temp/Android-Java/project/togengo2/app/src/main/res/layout/activity_youtubeclick.xml" value="0.11639492753623189" />
+        <entry key="..\:/Temp/Android-Java/project/togengo2/app/src/main/res/layout/btn_jp.xml" value="0.10185185185185185" />
+        <entry key="..\:/Temp/Android-Java/project/togengo2/app/src/main/res/layout/btn_youtube.xml" value="0.10185185185185185" />
+        <entry key="..\:/Temp/Android-Java/project/togengo2/app/src/main/res/layout/dictionary_make_list_view.xml" value="0.11911231884057971" />
+        <entry key="..\:/Temp/Android-Java/project/togengo2/app/src/main/res/layout/englishlist_main.xml" value="0.22135416666666666" />
+        <entry key="..\:/Temp/Android-Java/project/togengo2/app/src/main/res/layout/engstudy1.xml" value="0.1" />
+        <entry key="..\:/Temp/Android-Java/project/togengo2/app/src/main/res/layout/engstudy2.xml" value="0.15" />
+        <entry key="..\:/Temp/Android-Java/project/togengo2/app/src/main/res/layout/engstudy3.xml" value="0.22135416666666666" />
+        <entry key="..\:/Temp/Android-Java/project/togengo2/app/src/main/res/layout/engstudy4.xml" value="0.1" />
+        <entry key="..\:/Temp/Android-Java/project/togengo2/app/src/main/res/layout/engstudy5.xml" value="0.2203125" />
+        <entry key="..\:/Temp/Android-Java/project/togengo2/app/src/main/res/layout/engstudy6.xml" value="0.2203125" />
+        <entry key="..\:/Temp/Android-Java/project/togengo2/app/src/main/res/layout/japanlist_main.xml" value="0.22135416666666666" />
+        <entry key="..\:/Temp/Android-Java/project/togengo2/app/src/main/res/layout/japstudy1.xml" value="0.2203125" />
+        <entry key="..\:/Temp/Android-Java/project/togengo2/app/src/main/res/layout/japstudy2.xml" value="0.2203125" />
+        <entry key="..\:/Temp/Android-Java/project/togengo2/app/src/main/res/layout/japstudy3.xml" value="0.1" />
+        <entry key="..\:/Temp/Android-Java/project/togengo2/app/src/main/res/layout/japstudy4.xml" value="0.2203125" />
+        <entry key="..\:/Temp/Android-Java/project/togengo2/app/src/main/res/layout/japstudy5.xml" value="0.2203125" />
+        <entry key="..\:/Temp/Android-Java/project/togengo2/app/src/main/res/layout/japstudy6.xml" value="0.1" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/togengo2/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.159" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/togengo2/app/src/main/res/drawable/ic_launcher_background.xml" value="0.253" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/togengo2/app/src/main/res/drawable/rectangle_1.xml" value="0.253" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/togengo2/app/src/main/res/layout/activity_btn_jp.xml" value="0.19010416666666666" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/togengo2/app/src/main/res/layout/activity_btn_youtube.xml" value="0.24682971014492755" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/togengo2/app/src/main/res/layout/activity_grammar.xml" value="0.23596014492753623" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/togengo2/app/src/main/res/layout/activity_main.xml" value="0.22" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/togengo2/app/src/main/res/layout/activity_main2.xml" value="0.18645833333333334" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/togengo2/app/src/main/res/layout/activity_sub.xml" value="0.13903985507246377" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/togengo2/app/src/main/res/layout/activity_word.xml" value="0.23596014492753623" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/togengo2/app/src/main/res/layout/asd.xml" value="0.36614583333333334" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/togengo2/app/src/main/res/layout/btn_eng.xml" value="0.18" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/togengo2/app/src/main/res/layout/btn_jp.xml" value="0.18645833333333334" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/togengo2/app/src/main/res/layout/btn_youtube.xml" value="0.18645833333333334" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/togengo2/app/src/main/res/layout/eng.xml" value="0.1890625" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/togengo2/app/src/main/res/layout/grammar.xml" value="0.2" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/togengo2/app/src/main/res/layout/jp.xml" value="0.22" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/togengo2/app/src/main/res/layout/jquiz.xml" value="0.2758152173913043" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/togengo2/app/src/main/res/layout/jword.xml" value="0.1875" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/togengo2/app/src/main/res/layout/quiz.xml" value="0.18" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/togengo2/app/src/main/res/layout/word.xml" value="0.36614583333333334" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/togengo2/app/src/main/res/layout/youtube.xml" value="0.16" />
+        <entry key="..\:/Users/Administrator/Desktop/project_quiz/togengo2/app/src/main/res/drawable-v24/button_round2.xml" value="0.2285" />
+        <entry key="..\:/Users/Administrator/Desktop/project_quiz/togengo2/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.2795" />
+        <entry key="..\:/Users/Administrator/Desktop/project_quiz/togengo2/app/src/main/res/drawable/button_round.xml" value="0.2285" />
+        <entry key="..\:/Users/Administrator/Desktop/project_quiz/togengo2/app/src/main/res/drawable/grammer_rectangle.xml" value="0.1" />
+        <entry key="..\:/Users/Administrator/Desktop/project_quiz/togengo2/app/src/main/res/drawable/rectangle_1.xml" value="0.2795" />
+        <entry key="..\:/Users/Administrator/Desktop/project_quiz/togengo2/app/src/main/res/font/font_custom.xml" value="0.26458333333333334" />
+        <entry key="..\:/Users/Administrator/Desktop/project_quiz/togengo2/app/src/main/res/layout/activity_lock_main.xml" value="0.22604166666666667" />
+        <entry key="..\:/Users/Administrator/Desktop/project_quiz/togengo2/app/src/main/res/layout/activity_lock_screen.xml" value="0.22604166666666667" />
+        <entry key="..\:/Users/Administrator/Desktop/project_quiz/togengo2/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Users/Administrator/Desktop/project_quiz/togengo2/app/src/main/res/layout/activity_result.xml" value="0.3619791666666667" />
+        <entry key="..\:/Users/Administrator/Desktop/project_quiz/togengo2/app/src/main/res/layout/activity_youtube3.xml" value="0.22447916666666667" />
+        <entry key="..\:/Users/Administrator/Desktop/project_quiz/togengo2/app/src/main/res/layout/activity_youtubeclick.xml" value="0.22447916666666667" />
+        <entry key="..\:/Users/Administrator/Desktop/project_quiz/togengo2/app/src/main/res/layout/btn_eng.xml" value="0.1" />
+        <entry key="..\:/Users/Administrator/Desktop/project_quiz/togengo2/app/src/main/res/layout/btn_jp.xml" value="0.1" />
+        <entry key="..\:/Users/Administrator/Desktop/project_quiz/togengo2/app/src/main/res/layout/content_result.xml" value="0.22" />
+        <entry key="..\:/Users/Administrator/Desktop/project_quiz/togengo2/app/src/main/res/layout/dictionary_activity.xml" value="0.2" />
+        <entry key="..\:/Users/Administrator/Desktop/project_quiz/togengo2/app/src/main/res/layout/dictionary_dialog.xml" value="0.16312056737588654" />
+        <entry key="..\:/Users/Administrator/Desktop/project_quiz/togengo2/app/src/main/res/layout/englishlist_main.xml" value="0.32971014492753625" />
+        <entry key="..\:/Users/Administrator/Desktop/project_quiz/togengo2/app/src/main/res/layout/engstudy1.xml" value="0.32971014492753625" />
+        <entry key="..\:/Users/Administrator/Desktop/project_quiz/togengo2/app/src/main/res/layout/engstudy2.xml" value="0.32971014492753625" />
+        <entry key="..\:/Users/Administrator/Desktop/project_quiz/togengo2/app/src/main/res/layout/engstudy3.xml" value="0.32971014492753625" />
+        <entry key="..\:/Users/Administrator/Desktop/project_quiz/togengo2/app/src/main/res/layout/engstudy4.xml" value="0.32971014492753625" />
+        <entry key="..\:/Users/Administrator/Desktop/project_quiz/togengo2/app/src/main/res/layout/engstudy5.xml" value="0.32971014492753625" />
+        <entry key="..\:/Users/Administrator/Desktop/project_quiz/togengo2/app/src/main/res/layout/engstudy6.xml" value="0.32971014492753625" />
+        <entry key="..\:/Users/Administrator/Desktop/project_quiz/togengo2/app/src/main/res/layout/fragment_first.xml" value="0.20052083333333334" />
+        <entry key="..\:/Users/Administrator/Desktop/project_quiz/togengo2/app/src/main/res/layout/grammar.xml" value="0.3255208333333333" />
+        <entry key="..\:/Users/Administrator/Desktop/project_quiz/togengo2/app/src/main/res/layout/japanlist_main.xml" value="0.2989583333333333" />
+        <entry key="..\:/Users/Administrator/Desktop/project_quiz/togengo2/app/src/main/res/layout/japstudy2.xml" value="0.32971014492753625" />
+        <entry key="..\:/Users/Administrator/Desktop/project_quiz/togengo2/app/src/main/res/layout/jquiz.xml" value="0.22" />
+        <entry key="..\:/Users/Administrator/Desktop/project_quiz/togengo2/app/src/main/res/layout/jword.xml" value="0.3255208333333333" />
+        <entry key="..\:/Users/Administrator/Desktop/project_quiz/togengo2/app/src/main/res/layout/papago_activity.xml" value="0.25" />
+        <entry key="..\:/Users/Administrator/Desktop/project_quiz/togengo2/app/src/main/res/layout/quiz.xml" value="0.5" />
+        <entry key="..\:/Users/Administrator/Desktop/project_quiz/togengo2/app/src/main/res/layout/word.xml" value="0.2989583333333333" />
+        <entry key="..\:/Users/Administrator/Desktop/project_quiz/togengo2/app/src/main/res/menu/dictionary_menu.xml" value="0.20364583333333333" />
+        <entry key="..\:/Users/Administrator/Desktop/project_quiz/togengo2/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.184" />
+        <entry key="..\:/togengo2/app/src/main/res/layout/activity_lock_main.xml" value="0.22826086956521738" />
+        <entry key="..\:/togengo2/app/src/main/res/layout/activity_lock_screen.xml" value="0.22826086956521738" />
+        <entry key="..\:/togengo2/app/src/main/res/layout/activity_main.xml" value="0.22826086956521738" />
+        <entry key="..\:/togengo2/app/src/main/res/layout/activity_result.xml" value="0.22826086956521738" />
+        <entry key="..\:/togengo2/app/src/main/res/layout/activity_youtube1.xml" value="0.22826086956521738" />
+        <entry key="..\:/togengo2/app/src/main/res/layout/activity_youtube3.xml" value="0.22826086956521738" />
+        <entry key="..\:/togengo2/app/src/main/res/layout/activity_youtube4.xml" value="0.22826086956521738" />
+        <entry key="..\:/togengo2/app/src/main/res/layout/btn_jp.xml" value="0.22826086956521738" />
+        <entry key="..\:/togengo2/app/src/main/res/layout/quiz.xml" value="0.22826086956521738" />
+        <entry key="..\:/togengo2/app/src/main/res/layout/word.xml" value="0.22826086956521738" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

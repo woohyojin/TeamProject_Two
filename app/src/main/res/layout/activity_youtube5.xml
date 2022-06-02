@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".Youtube.Youtube5Activity">
+
+    <com.google.android.youtube.player.YouTubePlayerView
+        android:id="@+id/youTubePlayerView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/youtubebtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:layout_marginTop="250dp"
+        android:background="@drawable/button_round"
+        android:fontFamily="@font/maruburibold"
+        android:text="재생"
+        android:textColor="#000000" />
+
+    <ScrollView
+        android:id="@+id/scrollview"
+        android:layout_width="407dp"
+        android:layout_height="416dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="2dp"
+        android:layout_marginBottom="0dp">
+
+        <TextView
+            android:id="@+id/webaretext"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:gravity="center"
+            android:fontFamily="@font/maruburibold"
+            android:background="@drawable/textviewline"
+            android:text="\n夢ならばどれほどよかったでしょう
+
+\n\n유메나라바 도레호도 요캇타데쇼오
+\n꿈이라면야 얼마나 좋았을까요
+
+\n\n未だにあなたのことを夢にみる
+
+\n\n이마다니 아나타노 코토오 유메니 미루
+\n아직까지 나는 그대를 꿈에서 보네
+
+\n\n忘れた物を取りに帰るように
+
+\n\n와스레타모노오 토리니 카에루요오니
+\n잊어버렸던 것을 가지러 돌아가듯이
+
+\n\n古びた思い出の埃を払う
+
+\n\n후루비타 오모이데노 호코리오 하라우
+\n묵어있는 추억의 먼지를 털어내
+
+\n\n戻らない幸せがあることを
+
+\n\n모도라나이 시아와세가 아루코토오
+\n돌아오지 않는 행복이 있다는 것을
+
+\n\n最後にあなたが教えてくれた
+
+\n\n사이고니 아나타가 오시에테쿠레타
+\n마지막에 그대가 가르쳐주었는걸
+
+\n\n言えずに隠してた昏い過去も
+
+\n\n이에즈니 카쿠시테타 쿠라이 카코모
+\n말 못한 채 감춰두었던 어두운 과거도
+
+\n\nあなたがいなきゃ永遠に昏いまま
+
+\n\n아나타가 이나캬 에이엔니 쿠라이마마
+\n그대가 없다면 영원히 어두울 뿐이야
+
+\n\nきっともうこれ以上 傷つくことなど
+
+\n\n킷토 모오 코레 이죠오 키즈츠쿠코토나도
+\n정말 이제 이 이상으로 아파하게 되는 일은
+
+\n\nありはしないとわかっている
+
+\n\n아리와시나이토 와캇테이루
+\n있을 리가 없다는 걸 알고 있어
+
+\n\nあの日の悲しみさえ あの日の苦しみさえ
+
+\n\n아노히노 카나시미사에 아노히노 쿠루시미사에
+\n그 날의 슬퍼했던 일마저 그 날의 괴로웠던 일마저
+
+\n\nそのすべてを愛してた あなたとともに
+
+\n\n스노스베테오 아이시테타 아나타토 토모니
+\n그 전부를 다 사랑했었던 그래 그대와 함께
+
+\n\n胸に残り離れない 苦いレモンの匂い
+
+\n\n무네니노코리 하나레나이 니가이 레몬노니오니
+\n가슴에 남아서 떠나지 않는 씁쓸한 레몬의 향기
+
+\n\n雨が降り止むまでは帰れない
+
+\n\n아메가 후리야무마데와 카에레나이
+\n비가 그칠 때 오기 전엔 돌아갈 수 없네
+
+\n\n今でもあなたはわたしの光
+
+\n\n이마데모 아나타와 와타시노 히카리
+\n이 지금도 그대는 나의 빛일지니
+
+\n\n暗闇であなたの背をなぞった
+
+\n\n쿠라야미데 아나타노 세오 나좃타
+\n어둠 속에서 그대 뒷모습 따라그렸어
+
+\n\nその輪郭を鮮明に覚えている
+
+\n\n소노 린카쿠오 센메이니 오보에테이루
+\n그 실루엣을 선명하게 기억하고 있지
+
+\n\n受け止めきれないものと出会うたび
+
+\n\n우케토메키레나이모노토 데아우타비
+\n받아들이지 못할 것들과 만날 때마다
+
+\n\n溢れてやまないのは涙だけ
+
+\n\n아후레테 야마나이노와 나미다다케
+\n멈추지 않고 넘치는 것은 눈물뿐이야
+
+\n\n何をしていたの 何を見ていたの
+
+\n\n나니오 시테이타노 나니오 미테이타노
+\n무엇을 하고 있었나 무엇을 보고 있었나
+
+\n\nわたしの知らない横顔で
+
+\n\n와타시노 시라나이 요코가오데
+\n내가 알지 못하는 그 옆모습이
+
+\n\nどこかであなたが今 わたしと同じ様な
+
+\n\n도코카데 아나타가 이마 와타시토 오나지요오나
+\n어딘가에서 그대가 지금 여기에 있는 나와 같이
+
+\n\n涙にくれ　淋しさの中にいるなら
+
+\n\n나미다니 쿠레 사미시사노 나카니 이루나라
+\n눈물로 지새며 슬픔 속에 잠겨 있으시다면
+
+\n\nわたしのことなど どうか 忘れてください
+
+\n\n와타시노 코토나도 도오카 와스레테쿠다사이
+\n나 같은 것 따위는 부디 잊어주시겠어요
+
+\n\nそんなことを心から願うほどに
+
+\n\n손나코토오 코코로카라 네가우호도니
+\n그러한 것을 진심으로 바랄 정도로
+
+\n\n今でもあなたはわたしの光
+
+\n\n이마데모 아나타와 와타시노 히카리
+\n이 지금도 그대는 나의 빛일지니
+
+\n\n自分が思うより 恋をしていたあなたに
+
+\n\n지분가 오모우요리 코이오 시테이타 아나타니
+\n나의 생각보다 더 사랑했었던 그대에게
+
+\n\nあれから思うように 息ができない
+
+\n\n아레카라 오모우요오니 이키가 데키나이
+\n그 일 후로 마음대로 숨이 쉬어지지 않네
+
+\n\nあんなに側にいたのに まるで嘘みたい
+
+\n\n안나니 소바니 이타노니 마루데 우소미타이
+\n그렇게나 곁에 있었는데 정말 거짓말 같아
+
+\n\nとても忘れられない それだけが確か
+
+\n\n토테모 와스라레나이 소레다케가 타시카
+\n절대로 잊을 수 없으리 그것만이 진짜야
+
+\n\nあの日の悲しみさえ あの日の苦しみさえ
+
+\n\n아노히노 카나시미사에 아노히노 쿠루시미사에
+\n그 날의 슬퍼했던 일마저 그 날의 괴로웠던 일마저
+
+\n\nそのすべてを愛してた あなたとともに
+
+\n\n스노스베테오 아이시테타 아나타토 토모니
+\n그 전부를 다 사랑했었던 그래 그대와 함께
+
+\n\n胸に残り離れない 苦いレモンの匂い
+
+\n\n무네니노코리 하나레나이 니가이 레몬노니오니
+\n가슴에 남아서 떠나지 않는 씁쓸한 레몬의 향기
+
+\n\n雨が降り止むまでは帰れない
+
+\n\n아메가 후리야무마데와 카에레나이
+\n비가 그칠 때 오기 전엔 돌아갈 수 없네
+
+\n\n切り分けた果実の片方の様に
+
+\n\n키리와케타 카지츠노 카타호오노요오니
+\n반으로 잘라낸 과실의 한 쪽 면과 같이
+
+\n\n今でもあなたはわたしの光
+
+\n\n이마데모 아나타와 와타시노 히카리
+\n이 지금도 그대는 나의 빛일지니\n\n">
+        </TextView>
+
+    </ScrollView>
+
+</RelativeLayout>

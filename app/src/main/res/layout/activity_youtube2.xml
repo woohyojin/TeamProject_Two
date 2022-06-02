@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".Youtube.Youtube2Activity">
+
+    <com.google.android.youtube.player.YouTubePlayerView
+        android:id="@+id/youTubePlayerView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/youtubebtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:layout_marginTop="250dp"
+        android:background="@drawable/button_round"
+        android:fontFamily="@font/maruburibold"
+        android:text="재생"
+        android:textColor="#000000" />
+
+    <ScrollView
+        android:id="@+id/scrollview"
+        android:layout_width="407dp"
+        android:layout_height="416dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="2dp"
+        android:layout_marginBottom="0dp">
+
+        <TextView
+            android:id="@+id/webaretext"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:gravity="center"
+            android:fontFamily="@font/maruburibold"
+            android:background="@drawable/textviewline"
+            android:text="\nHere comes a wave meant to wash me a way
+\nA tide that is taking me under
+\nSwallowing in sand left with nothing to say
+\nMy voice drowned out in the thunder
+
+\n\n날 무력하게 할 파도가 다가오네
+\n나를 아래로 끌어당기는 바닷물
+\n모래를 집어삼키고, 아무 말 못하게 했지
+\n내 목소리는 천둥소리에 사라져버렸어
+
+\n\nBut I won't cry
+\nAnd I won't start to crumble
+\nWhenever they try
+\nTo shut me or cut me down
+
+\n\n하지만 난 울지 않을 거야
+\n난 무너지기 시작하지 않을거야
+\n그들이 날 막으려하거나, 끊어내려 할 때마다
+
+\n\nI won't be silenced
+\nYou can't keep me quiet
+\nWon't tremble when you try it
+\nAll I know is I won't go speechless
+
+\n\n난 침묵하지 않을거야
+\n넌 날 조용히 시킬 수 없어
+\n그러려고 시도해도 난 떨지 않을거야
+\n난 내가 침묵하지 않을 거라는 걸 알기 때문이야
+
+\n\nCause I'll breathe
+\nWhen they try to suffocate me
+\nDon't you underestimate me
+\nCause I know that I won't go speehless
+
+\n\n난 숨을 쉴 거니까
+\n그들이 날 질식시키려 할 때 말이야
+\n날 과소평가하지마
+\n난 내가 침묵하지 않을 거라는 걸 알기 때문이야
+
+\n\nWritten in stone
+\nEvery rule, every word
+\nCenturies old and unbending
+\n'Stay in your place'
+\n'Better seen and not heard'
+\nBut now that story is ending
+
+\n\n바꿀 수 없는
+\n수백년이 되고 꺾이지 않는
+\n모든 규칙과 단어들
+\n'네 자리에 있어'
+\n'목소리를 내지 마'
+\n하지만 이제 그 스토리는 끝이야
+
+\n\nCause I
+\nI cannot start to crumble
+\nSo come o and try
+\nTry to shut me and cut me down
+
+\n\n왜냐면 난
+\n난 무너질 수 없으니까
+\n자, 어서 이리와서 해봐
+\n날 막아보고 날 쓰러뜨리려고 해봐
+
+\n\nI won't be silenced
+\nYou can't keep me quiet
+\nWon't tremble when you try it
+\nAll I know is I won't go speechless
+\nspeechless
+
+\n\n난 침묵하지 않을거야
+\n넌 날 조용히 시킬 수 없어
+\n그러려고 시도해도 난 떨지 않을거야
+\n난 내가 침묵하지 않을 거라는 걸 알기 때문이야
+\n침묵하지 않을거야
+
+\n\nLet the storm in
+\nI cannot be broken
+\nNo, I won't live unspoken
+\nCause I know that I won't go speechless
+
+\n\n폭풍이 휘몰아치게 해
+\n난 부러질 수 없어
+\n절대 난 침묵하며 살지 않을거야
+\n난 내가 침묵하지 않을 거라는 걸 알기 때문이야
+
+\n\nTry to lock me in this cage
+\nI won't just lay me down and die
+\nI will take these broken wings
+\nAnd watch me burn across the sky
+\nHear the echo saying
+
+\n\n이 새장안에 날 가두려 해봐
+\n난 쓰러져서 죽어가지 않을거야
+\n난 이 부서진 날개를 가지고
+\n하늘을 가로질러 날아가는 나를 지켜볼 거야
+\n메아리가 말하는 걸 들어봐
+
+\n\nI won't be silenced
+\nThough you wanna see me tremble
+\nWhen you try it
+\nAll I know is I won't go speechless
+\nspeechless
+
+\n\n난 침묵하지 않을거야
+\n네가 내가 떠는걸 보고 싶어하더라도 말이야
+\n네가 그렇게 하려고 할 때
+\n난 내가 침묵하지 않을 거라는 걸 알기 때문이야
+\n침묵하지 않을거야
+
+\n\nCause I'll breathe
+\nWhen they try to suffocate me
+\nDon't you underestimate me
+\nCause I know that I won't go speehless
+
+\n\n난 숨을 쉴 거니까
+\n그들이 날 질식시키려 할 때 말이야
+\n날 과소평가하지마
+\n난 내가 침묵하지 않을 거라는 걸 알기 때문이야
+
+\n\nAll I know is I won't go speechless
+\nspeechless
+
+\n\n난 내가 침묵하지 않을 거라는 걸 알기 때문이야
+\n침묵하지 않을거라는 거\n\n">
+        </TextView>
+
+    </ScrollView>
+
+</RelativeLayout>

@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.togengo" >
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.hardware.camera" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+<!--    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />-->
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Togengo"
+        android:usesCleartextTraffic="true" >
+
+
+        <activity
+            android:name=".MainActivity"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity> <!-- youtube -->
+        <activity android:name=".Youtube.YoutubeClickActivity" />
+        <activity android:name=".Youtube.Youtube1Activity" />
+        <activity android:name=".Youtube.Youtube2Activity" />
+        <activity android:name=".Youtube.Youtube3Activity" />
+        <activity android:name=".Youtube.Youtube4Activity" />
+        <activity android:name=".Youtube.Youtube5Activity" />
+        <activity android:name=".Youtube.Youtube6Activity" />
+        <activity
+            android:name=".MainUI.Btn_jp"
+            android:exported="false" />
+        <activity
+            android:name=".MainUI.Btn_eng"
+            android:exported="false" /> <!-- 영어 문법 -->
+        <activity
+            android:name=".Grammer.EnglishMain"
+            android:exported="false" />
+        <activity
+            android:name=".Grammer.EngDay1"
+            android:label="EngDay1 액티비티" />
+        <activity
+            android:name=".Grammer.EngDay2"
+            android:label="EngDay2 액티비티" />
+        <activity
+            android:name=".Grammer.EngDay3"
+            android:label="EngDay3 액티비티" />
+        <activity
+            android:name=".Grammer.EngDay4"
+            android:label="EngDay4 액티비티" />
+        <activity
+            android:name=".Grammer.EngDay5"
+            android:label="EngDay5 액티비티" />
+        <activity
+            android:name=".Grammer.EngDay6"
+            android:label="EngDay6 액티비티" /> <!-- 일본어 문법 -->
+        <activity
+            android:name=".Grammer.JapanMain"
+            android:label="JapanList 액티비티" />
+        <activity
+            android:name=".Grammer.JapDay1"
+            android:label="JapDay1 액티비티" />
+        <activity
+            android:name=".Grammer.JapDay2"
+            android:label="JapDay2 액티비티" />
+        <activity
+            android:name=".Grammer.JapDay3"
+            android:label="JapDay3 액티비티" />
+        <activity
+            android:name=".Grammer.JapDay4"
+            android:label="JapDay4 액티비티" />
+        <activity
+            android:name=".Grammer.JapDay5"
+            android:label="JapDay5 액티비티" />
+        <activity
+            android:name=".Dictionary.Dictionary_Activity"
+            android:label="사전 액티비티" />
+        <activity
+            android:name=".Quiz.QuizActivity"
+            android:label="Quiz" />
+        <activity
+            android:name=".Lock.LockMainActivity"
+            android:exported="true"
+            android:launchMode="singleTop" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <receiver android:name=".Lock.ScreenReceiver" />
+
+        <service android:name=".Lock.ScreenService" />
+
+        <activity android:name=".Lock.LockScreenActivity" />
+        <activity
+            android:name=".Lock.LockScreen2Activity"
+            android:configChanges="orientation|screenSize"
+            android:excludeFromRecents="true"
+            android:launchMode="singleTask" >
+
+            <!-- 화면을 돌려도 activity가 재시작 되지 않음. -->
+
+        </activity>
+        <activity
+            android:name=".Dictionary.ChangeLanguage"
+            android:label="papago" />
+
+        <activity android:name=".Quiz.ResultActivity"
+            android:theme="@style/Theme.AppCompat.DayNight.Dialog"
+            />
+
+
+
+
+    </application>
+
+</manifest>
